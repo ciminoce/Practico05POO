@@ -47,6 +47,10 @@ namespace Ejercicio05.Consola
             {
                 Console.WriteLine(medida);
             }
+            int cantidadMedidas = gestor;
+            Console.WriteLine($"Cantidad de Medidas: {cantidadMedidas}");
+            double sumaMedidas = gestor;
+            Console.WriteLine($"Suma de Medidas....:{sumaMedidas}");
             Console.ReadKey();
         }
 
